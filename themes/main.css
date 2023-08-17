@@ -90,6 +90,14 @@ h2 {
   font-size: 32pt;
 }
 
+h2, .liltitle{
+  text-align: center;
+  font-weight: 200;
+  line-height: 1.2em;
+  font-size: 32pt;
+  color:#109715;
+}
+
 h3 {
   text-align: center;
   font-weight: 100;

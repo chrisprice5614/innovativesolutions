@@ -57,6 +57,8 @@ h3 a:hover{
   font-weight: 100;
   cursor: pointer;
   transition-duration: 0.4s;
+  box-shadow: inset 0px 0px 2px black;
+  box-shadow: 1px 1px 6px black;
 }
 
 .buttonClass:hover{
@@ -956,3 +958,25 @@ p a{
     .centerTextAlignment {
       text-align: center;
     }
+
+
+    
+  input[type=text], input[type='tel'], input[type='email'], textarea {
+    box-shadow: inset 0 1px 3px #ddd;
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: box-shadow 220ms ease;
+  }
+  
+  input[type=text]:hover, input[type='phone number']:hover, input[type='email']:hover, textarea:hover {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .1);
+  }
+  
+  input[type=text]:focus, input[type='phone number']:focus, input[type='email']:focus, textarea:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  }
